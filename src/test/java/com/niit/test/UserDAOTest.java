@@ -40,7 +40,7 @@ public class UserDAOTest
 		user.setMobileNo("999999999");
 		user.setEnabled(true);
 		user.setRole("USER_ADMIN");
-//ERROR IN NEXT LINE
+
 		assertTrue("Problem in registering user",userDAO.addUser(user));//condition is false, it should be true!!!
 	}
 	
